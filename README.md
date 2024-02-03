@@ -14,13 +14,15 @@ Then cd into the repository.
 
 Run `npm install` to install the necessary libraries required for Node.js to run.
 
+Run `npm i -g run-func` to enable and run exported JavaScript functions from terminal.
+
 ## Run
 
-To run the application, open terminal and run the following command:
+To run the application, open terminal and run the following command, replacing the path file with the appropriate one:
 
-run-func index.js fileReader "/Users/sofiadionis/Documents/textFile1.txt"
+`run-func index.js fileReader "/Users/sofiadionis/Documents/textFile1.txt"`
 
-index.js is the name of the file containing the fuction fileReader, which takes the file path as an argument as shown above.
+index.js is the name of the file containing the fuction fileReader, which takes the file path as an argument as shown above. 
 
 ## Built With
 
