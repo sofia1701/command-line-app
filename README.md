@@ -22,9 +22,11 @@ To run the application, open terminal and run the following command, replacing t
 
 `run-func index.js fileReader "/Users/sofiadionis/Documents/textFile1.txt"`
 
-index.js is the name of the file containing the fuction fileReader, which takes the file path as an argument as shown above. 
+index.js is the name of the file containing the fuction fileReader, which takes the file path as an argument as shown above.
 
 Please note the program only accepts .txt type of files.
+
+To run unit tests `npm t` and tests with coverage `npm t -- --coverage`.
 
 ## Built With
 
@@ -33,4 +35,3 @@ Javascript
 ## Authors
 
 Sofia Dionisio
-
